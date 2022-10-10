@@ -1,0 +1,22 @@
+{
+    "name": "borislav/clickhouse",
+    "description": "ClickHouse implementation for PHP projects",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "symfony/serializer": "*",
+        "smi2/phpclickhouse": "^1.4",
+        "ramsey/uuid-doctrine": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Borislav\\Clickhouse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Boris",
+            "email": "Glazunov2142@icloud.com"
+        }
+    ]
+}
